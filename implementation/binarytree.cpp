@@ -73,6 +73,7 @@ void deletetree(struct node* root){
 int main()
 {
     struct node* root;
+    //creates a root node
     root=newnode(1);
     insert(root,2);
     insert(root,3);
